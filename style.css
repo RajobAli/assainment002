@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .one{
     display: flex;
@@ -58,6 +59,38 @@ header{
     padding:10px ;
 }
 
+
+/* second part start */
+
+.img6{
+    height: 40px;
+}
+.img5{
+    display: flex;
+    align-items: center;
+}
+section2{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.ten ,.img11{
+    width: 300px;
+    height: 300px;
+}
+section3{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 @media screen and (max-width:760px) {
     header{
         flex-direction: column;
@@ -68,9 +101,12 @@ header{
     .one{
         flex-direction: column;
     }
-    .three{
+    section2{
         flex-direction: column;
     }
-
+    section3{
+        flex-direction: column;
+    }
+  
     
 }
