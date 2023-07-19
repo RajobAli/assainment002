@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .one{
     display: flex;
@@ -60,6 +60,11 @@ header{
     height: 20px;
     padding:10px ;
 }
+.ppp{
+    color: blueviolet;
+    font-size: 40px;
+    margin-left: 50px;
+}
 
 
 /* second part start */
@@ -99,6 +104,34 @@ section4{
     align-items: center;
     
 }
+.rrs{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.yyy{
+    margin-left: 90%;
+}
+.rrr{
+    margin-left: 25%;
+}
+.old{
+    font-size: 20px;
+}
+.funny{
+    color: violet;
+    font-size: 20px;
+
+}
+#zaa{
+    margin-top: 20px;
+}
+.online{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#zim{
+    margin-top: 20px;
+}
 section5{
     width: 80%;
     display: flex;
@@ -106,6 +139,31 @@ section5{
     justify-content: space-between;
     align-items: center;
     
+}
+#ddd{
+    background-color: rgb(224, 12, 101);
+}
+.btnn1{
+    color: white;
+    margin-left: 10px;
+    background-color: pink;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    
+}
+.btnn2{
+    color: white;
+    margin-left: 10px;
+    background-color:rgb(24, 170, 228);
+    font-size: 1cqmax;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+
 }
 .img12{
     height: 200px;
@@ -279,10 +337,15 @@ section6{
     color: white;
 }
 
+.goat{
+    color: rgb(243, 40, 142);
+    font-weight: bolder;
+}
 
 
 
-@media screen and (max-width:760px) {
+
+@media screen and (max-width:756px) {
     header{
         flex-direction: column;
     }
@@ -340,5 +403,72 @@ section6{
  
     
 }
+@media screen and (min-width:757px) and (max-width:850px) {
+    header{
+        flex-direction: column;
+        background-color: yellow;
+        width: 100%;
+        
+    }
+  
+    .rightside{
+        flex-direction: column;
+    }
+   
+    section2{
+        flex-direction: column;
+    }
+    section3{
+        flex-direction: column;
+    }
+    .imagearrange{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        margin-left: 50px;
+    }
+    .section40,.section41{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .section60{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+    .sp{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+    }
+    .section7five{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3,auto);
+        gap: 20px;
+
+    }
+    .section7six{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+   
+    
+    }
+    .fff{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section111{
+        background-color: red;
+        
+    }
+    
+    
+ 
+    
+}
+
 
 
