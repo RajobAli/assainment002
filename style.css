@@ -12,11 +12,13 @@ header{
 .one{
     display: flex;
     align-items: center;
+    
  
     
 }
 #G{
-    color: rgb(158, 30, 175);
+    color: rgb(235, 6, 178);
+    margin-left: 10px;
 }
 .you,.tic{
     height: 40px;
@@ -75,7 +77,7 @@ section2{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 .ten ,.img11{
@@ -95,6 +97,7 @@ section4{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    
 }
 section5{
     width: 80%;
@@ -102,6 +105,7 @@ section5{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    
 }
 .img12{
     height: 200px;
@@ -146,14 +150,133 @@ section5{
 .section61{
     display: flex;
    align-items: center;
+   margin-top: 40px;
 
 }
+.img13{
+    margin-right: 20px;
+}
+
 .section60{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     width: 80%;
     margin: 0 auto;
     gap: 10px;
+}
+.many{
+    font-size: 8px;
+}
+#sss{
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 0px 1px;
+}
+.section7one{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+  
+}
+.section7two{
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+ 
+    margin-top: 20px;
+}
+
+ul>li{
+    list-style: none;
+    padding: 10px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+}
+.last{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.section7five{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(7,auto);
+    gap: 20px;
+ 
+    align-items: center;
+
+    left: 30px;
+    
+  
+   
+}
+section6{
+   bottom: 20px;
+   padding: 10px;
+}
+.last{
+    
+}
+.apple,.camera{
+    color: white;
+}
+.section7six{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+   
+}
+.ooo{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+#mobile{
+ text-decoration: none;
+ color: white;
+
+}
+.section7six>a{
+    margin-left: 30px;
+}
+.fff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section10{
+    height: 100px;
+    width: 100%;
+  
+}
+
+.section111{
+     
+    width: 100%;
+    background-color: black;
+    top: 30px;
+    display: grid;
+    bottom: 30px;
+ 
+}
+#face{
+    color: white;
+}
+#apple,#camera{
+    color: white;
+}
+.section61:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
 }
 
 
@@ -166,9 +289,7 @@ section5{
     .rightside{
         flex-direction: column;
     }
-    .one{
-        flex-direction: column;
-    }
+   
     section2{
         flex-direction: column;
     }
@@ -188,6 +309,36 @@ section5{
         display: grid;
         grid-template-columns: repeat(3,auto);
     }
+    .sp{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+    .section7five{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3,auto);
+        gap: 20px;
+
+    }
+    .section7six{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+   
+    
+    }
+    .fff{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
  
     
 }
+
+
