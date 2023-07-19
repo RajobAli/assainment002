@@ -96,6 +96,13 @@ section4{
     justify-content: space-between;
     align-items: center;
 }
+section5{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
 .img12{
     height: 200px;
     width: 150px;
@@ -110,6 +117,46 @@ section4{
     gap: 20px;
     top: 20px;
 }
+.size{
+    color: rgb(218, 74, 206);
+}
+.section5twoone{
+    position: relative;
+   
+}
+.img122{
+    height: 300px;
+    width: 300px;
+}
+.img123{
+    height: 130px;
+    width: 120px;
+}
+.section5twotwo{
+    position: absolute;
+    bottom: -10px;
+    left:  -50px;
+   
+}
+
+.section60{
+    display: grid;
+  
+}
+.section61{
+    display: flex;
+   align-items: center;
+
+}
+.section60{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+
 
 
 @media screen and (max-width:760px) {
@@ -137,6 +184,10 @@ section4{
         margin-left: 10px;
         margin-top: 20px;
     }
-  
+    .section60{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+ 
     
 }
