@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    display: flex;
+    align-items: center;
+ 
+    
+}
+#G{
+    color: rgb(158, 30, 175);
+}
+.you,.tic{
+    height: 40px;
+    width: 40px;
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    gap: 30px;
+}
+.three{
+    top:  20px;
+    background-color:rgba(11, 2, 35, 0.10);
+    
+    text-align: center;
+    gap: 20px;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+ 
+}
+.you{
+    margin-left: 10px;
+}
+.tic{
+
+    height: 35px;
+}
+
+.three:hover{
+    border: 1px solid red;
+}
+.six{
+    height: 20px;
+    padding:10px ;
+}
+
+@media screen and (max-width:760px) {
+    header{
+        flex-direction: column;
+    }
+    .rightside{
+        flex-direction: column;
+    }
+    .one{
+        flex-direction: column;
+    }
+    .three{
+        flex-direction: column;
+    }
+
+    
+}
